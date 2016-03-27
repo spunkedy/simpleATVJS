@@ -1,0 +1,28 @@
+{
+  "name": "simpleATVJS",
+  "version": "0.0.1",
+  "description": "Simple apple tvjs example using atvjs",
+  "main": "server.js",
+  "keywords": [
+    "tvOS",
+    "express",
+    "jade",
+    "html",
+    "AppleTV"
+  ],
+  "dependencies": {
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1",
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ed Bond <celpa.firl@gmail.com>",
+  "license": "MIT",
+}
