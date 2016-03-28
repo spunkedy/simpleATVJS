@@ -1,3 +1,6 @@
+var changeLilly = function(){
+
+}
 var homePage = ATV.Page.create({
     name: 'home',
     // use a template function from your favourite templating engine
@@ -104,7 +107,7 @@ ATV.start({
                 var element = e.target;
                 var someElementTypeCheck = element.getAttribute('data-my-attribute');
 
-                if (elementTypeCheck) {
+                if (someElementTypeCheck) {
                     // perform action
                 }
             }
